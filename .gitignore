@@ -1,0 +1,6 @@
+# .gitignore
+*.json
+*.tfstate
+*.tfstate.backup
+.terraform/
+.css
