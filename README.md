@@ -13,13 +13,15 @@ This project showcases my personal website deployed to Google Cloud Platform usi
 
 ## 🚀 Live Site
 
-[Visit My Website](https://storage.googleapis.com/ankita-portfolio-bucket/index.html)
+[Ankita Chaudhari Cloud Portfolio](https://storage.googleapis.com/ankita-portfolio-bucket/index.html)
 
 ## 📸 Screenshots
 
-![Terraform Apply](screenshots/terraform-apply.png)
-![GCP Bucket](screenshots/gcp-bucket.png)
-![Live Website](screenshots/live-site.png)
+1. Live website running on browser
+2. terraform init command run on git bash
+3. terraform plan command run on git bash
+4. terraform apply command run on git bash
+5. Bucket created on GCP
 
 ## Steps 
 
@@ -49,7 +51,6 @@ This project showcases my personal website deployed to Google Cloud Platform usi
 7. Set auth environment variable:
     Run the below commmand in git bash
 
-```bash
     - export GOOGLE_APPLICATION_CREDENTIALS="terraform-key.json"
 
 ### 3. Verify access with gcloud CLI
@@ -67,10 +68,11 @@ This project showcases my personal website deployed to Google Cloud Platform usi
 1. Created and write the code for main.tf and variables.tf 
 2. Run the following terraform commands on git bash to deploy it on GCP
 
-```bash
     - terraform init
     - terraform plan
     - terraform apply
+
+---
 
 ### 5. Get the URL
 
@@ -78,4 +80,6 @@ This project showcases my personal website deployed to Google Cloud Platform usi
 2. Select the bucket created for the portfolio
 3. Copy Public URL
 4. Hit the URL On browser, and your live portfolio is accessible to the internet.
+
+### 6. Push the changes on github
 
